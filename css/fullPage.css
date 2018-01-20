@@ -1,0 +1,62 @@
+*{margin: 0; padding: 0;}
+li{list-style-type: none;}
+a{text-decoration: none;}
+body{font-family: "Microsoft Yahei";}
+.full-hd{width: 100%; height: 64px; background: url(../images/hd_bg.jpg) 0px 0px repeat-x; position: fixed; z-index: 1000;}
+.full-hd .inner{position: relative;height: 64px; width:95%; margin:auto; }
+.full-hd .inner h1{font-weight: normal; float: left;}
+.full-hd .inner h1 a{color:white; font-size: 28px; line-height: 64px; font-family: Microsoft Yahei; }
+.full-hd .nav{float: right;}
+.full-hd .nav li{float: left;}
+.full-hd .nav li a{padding: 0 10px; line-height: 64px; font-size:17px ; color: #fff; text-decoration: none; font-family: Microsoft Yahei; display: block; }
+.full-hd .nav li a:hover{border-bottom: 2px solid #4ec101; height: 62px;}
+
+#full-section{margin-top: 64px;}
+
+#full-section .section{background: url(../images/section_bg.jpg) 0 0 repeat-x;}
+#full-section .section1{background-color: #212121; background-image: none;}
+#full-section .section1 .fp-tableCell{vertical-align: top;}
+#full-section .section1 .gojd{display: block; text-indent: -9999px;  height: 100%; overflow:hidden; background: url(../images/slider2.jpg) 50% 0 no-repeat;}
+#full-section .section2{}
+#full-section .section2 .inner{ width: 960px; height: 100%; position: relative; margin: 0 auto;}
+#full-section .section2 .img1{position: absolute; left: 240px; top: 8%;}
+#full-section .section2 .img2{position: absolute; left: -7px; bottom: 64px;}
+
+#full-section .section3 h2{margin: 0 auto; width: 577px; height: 90px; text-indent: -9999px; background: url(../images/slider3_title.png) 0 0 no-repeat;}
+#full-section .section3 img{display: block; margin: 2% auto;}
+#full-section .section3 p{  line-height: 30px; text-align: center;}
+#full-section .section3 .fp-controlArrow{}
+#full-section .section3 .fp-prev{position: absolute; background: url(../images/left_control.png) 35% no-repeat; left: 160px;}
+#full-section .section3 .fp-next{position: absolute; background: url(../images/right_control.png) 65% no-repeat; right: 160px;}
+#full-section .section4{}
+#full-section .section4 .inner{width: 960px; height: 100%; position: relative; margin: 0 auto;}
+#full-section .section4 .img1{ position: absolute; top: 5%; left: -160px;}
+#full-section .section4 h2{ background: url(../images/slider4_title.png) 0 0 no-repeat; height: 90px;}
+#full-section .section4 .icon{ height: 111px; background: url(../images/slider4_icon.png) 0px 0px no-repeat; margin-top: 25px;}
+#full-section .section4 .txt{ position:  absolute; width:  645px; display: block; right: 0; margin-top:90px ;}
+#full-section .section4 p{margin-top: 25px;}
+#full-section .section5{ height: 100%;}
+#full-section .section5 .inner{width: 960px; height: 100%; position: relative; margin: 0 auto;}
+#full-section .section5 .img1{ position: absolute; right: -460px; top: 180px;}
+#full-section .section5 h2{ background: url(../images/slider5_title.png) 0 0 no-repeat; height: 90px;}
+#full-section .section5 .icon{ margin-right: 18px;}
+#full-section .section5 .txt{ position:  absolute; width:  645px; display: block; left:0px; margin-top:60px ;}
+#full-section .section5 .inner .txt p{width: 550px; padding: 20px 0; line-height: 30px; font-size: 16px;}
+
+.ft{position: absolute; left: 0; bottom: 64px; width: 960px; background-color: rgba(255, 255, 255, 0.7);}
+.ft-link{padding: 10px 0; overflow: hidden; zoom: 1;}
+.ft .first{ padding-left: 100px;}
+.ft .more-link{float: left; padding: 0 60px; border-right: 1px solid #e7e8e8;}
+.ft .more-link h3{ color: #7d7d7d; font-size: 14px;}
+.ft .more-link ul{list-style-type: none;}
+.ft .more-link ul li{}
+.ft .more-link ul li a{color: #676767; display: block;}
+.ft .service{float: right; padding-right: 100px; background: url(http://cdn.dowebok.com/77/images/i10/phone.png) 10px 10px no-repeat;}
+.ft .service ul{ padding: 0 15px 0 56px; background-color: rgba(255, 255, 255, 0.5); list-style-type: none;}
+.ft .service .phone{padding: 7px 0 0 10px; border-left: 1px solid #fff; font-size: 22px;}
+.ft .service .time{border-left: 1px solid #fff; font-size: 16px; color: #adb0b4;}
+.ft .copy{ height: 50px;}
+.ft .copy p{ width: 100%; padding: 0; line-height: 18px; font-size: 12px; text-align: center; color: #a1a1a1; }
+
+#fp-nav span, .fp-slidesNav span { border: 1px solid #999;}
+#fp-nav li .active span, .fp-slidesNav.active span { background-color: #4ec200;}
